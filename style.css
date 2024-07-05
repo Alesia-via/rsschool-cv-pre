@@ -1,0 +1,45 @@
+nav {
+   border: 1px; 
+  
+}
+.menu {
+    display: flex;
+    justify-content:start;
+    text-align: center;
+    
+}
+.cell{
+    
+    padding: 5px;
+    margin: 5px;
+}
+a{
+    color: black;
+}
+body{
+    background-color: rgb(248, 248, 239);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+  #personal-info {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+.conteiner {
+    display: flex;
+    justify-content:start;
+    flex-direction: column;
+    
+}
+
+footer {
+    display: flex;
+    justify-content:space-between;
+    width: 80%;
+    padding: 10px;}
+   
+    #year {
+        font-size: 36px; ;
+    }
+   
+ 
