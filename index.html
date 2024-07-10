@@ -7,27 +7,29 @@
     <title>CV Viarkhoutsava Alesia</title>
 </head>
 <body>
-    <header>
-        <nav class="menu">
-           
-                <div class="menu cell"><a  href="#name"> Name  </a></div>
-                <div class="menu cell"><a href="#my-position">  Position </a></div>
-                <div class="menu cell"><a href="#my-contacts">  Contacts</a> </div>
-                <div class="menu cell"><a href="#about-me"> About me </a> </div>
-                <div class="menu cell"><a href="#my-languages"> languages </a> </div>
-                <div class="menu cell"><a href="#my-skills"> Skills </a> </div>
-                <div class="menu cell"><a href="#my-education"> Education </a></div> 
-                <div class="menu cell"><a href="#my-work"> Work experience </a> </div>
-                <div class="menu cell"><a href="#my-projects"> Projects </a> </div>
-             
-        </nav>
+    <header >
+    
+            <nav >
+            <ul class="container" >
+                <li class="cell"><a  href="#name"> Name  </a></li>
+                <li class="cell"><a href="#my-position">  Position </a></li>
+                <li class="cell"><a href="#my-contacts">  Contacts</a> </li>
+                <li class="cell"><a href="#about-me"> About me </a> </li>
+                <li class="cell"><a href="#my-languages"> Languages </a> </li>
+                <li class="cell"><a href="#my-skills"> Skills </a> </li>
+                <li class="cell"><a href="#my-education"> Education </a></li> 
+                <li class="cell"><a href="#my-work"> Work experience </a> </li>
+                <li class="cell"><a href="#my-example-code"> Example Code </a> </li>
+                <li class="cell"><a href="#my-projects"> Projects </a> </li>
+            </ul>
+        </nav> 
     </header>
 
     <main >
 
         <section >
           
-            <img src="photo.png" alt="Photo" width="160px" height="230px">
+            <img  src="photo.png" alt="Photo" style="width: 120px;">
             <h1 id="name"> Viarkhoutsava Alesia </h1>
             <h3 id="my-position">junior web developer</h3></div>
           
@@ -91,18 +93,33 @@
             <p class="work"> Sales manager.</p>
         </article>
         <article>
+            <h2 id="my-example-code">
+                Example Code:
+            </h2> 
+            <code>
+                <pre>
+                const square = (num) => {
+                return num * num;
+                };
+                </pre>
+            </code>
+            </article>
+        <article>
             <h2 id="my-projects">
                 Projects:
             </h2> 
-            <p class="project"> Will be soon... </p>
+            <ul>
+            <li class="project"> <a href="https://alesia-via.github.io/rsschool-cv/"> My CV</a></li>
+            <li class="project"> Other will be soon... </li>
+        </ul>
             </article>
         </section>
     </main>
     <footer>
        
-       <a href="https://github.com/Alesia-via/rsschool-cv"> <img src="./github-mark.svg" alt="LogoGitHub" width="50px" height="50px"></a>
+       <a href="https://github.com/Alesia-via/rsschool-cv"> <img src="./github-mark.svg" alt="LogoGitHub" style="width: 50px;"></a>
       
-       <a href="https://rs.school/courses/javascript-ru">  <img src="./rs-school-logo.svg" alt="RSschool" width="80px" height="78px"></a>
+       <a href="https://rs.school/courses/javascript-ru">  <img src="./rs-school-logo.svg" alt="RSschool" style="width: 78px;"></a>
        <a  id="year" href="year:2024"> 2024 </a>
     </footer>
 </body>
