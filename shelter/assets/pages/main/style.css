@@ -33,3 +33,36 @@ html {
 *, *::before,*::after{
     box-sizing: inherit;
 }
+body {
+    font-family: 'arial-regular';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: black;
+}
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.header {
+    background-color: rgb(120, 205, 205);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.header-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-link {
+    list-style: none;
+    text-decoration: none;
+}
