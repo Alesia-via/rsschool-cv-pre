@@ -1,0 +1,325 @@
+@font-face {
+  font-family: "arial-regular";
+  src: url(/shelter/fonts/arial-regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "arial-bold";
+  src: url(/shelter/fonts/arial-bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "arial-black";
+  src: url(/shelter/fonts/arial-black.ttf);
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+font-face {
+  font-family: "arial-narrow";
+  src: url(/shelter/fonts/arial-narrow.ttf);
+  font-weight: lighter;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+    font-family: "georgia-regular";
+    src: url(/shelter/assets/fonts/georgia-regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;}
+
+    @font-face {
+        font-family: "georgia-bold";
+        src: url(/shelter/assets/fonts/georgia-regular.ttf);
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "arial-regular";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  
+/* Header style start */
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  background: url(/rsschool/rsschool-cv/shelter/assets/img/start-screen-gradient-background.png) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: bisque;
+}
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.header-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-right: 40px;
+}
+.header-link {
+  padding: 5px;
+  text-decoration: none;
+  color: bisque;
+  font-family: "arial-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  
+}
+.active {
+  border-bottom: 2px solid bisque;
+  font-size: 15px;
+}
+.logo {
+  padding: 5px;
+  text-decoration: none;
+  color: bisque;
+  padding: 40px;
+}
+.header-logo {
+ padding-left: 40px;
+}
+.logo1 {
+  font-family: "georgia-regular"';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 110%;
+  
+}
+.logo2 {
+    font-family: "arial-regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+  
+}
+/* Header style end */
+/* not only style start */
+
+.not-only {
+  height: 908px;
+
+  background: url(/shelter/assets/img/start-screen-gradient-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.not-only-container {
+   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 90px;
+  gap: 10px;
+
+}
+.not-only-part {
+    max-width: 472px;
+    max-height: 322px;
+    position: absolute;
+    left: 128px;
+    bottom: 208px;
+}
+.not-only-title {
+  max-width: 314px;
+  color: rgb(57, 69, 80);
+  font-family:"georgia-regular" ;
+  font-size: 44px;
+line-height: 130%
+}
+.not-only-subtitle {
+  max-width: 460px;
+  color: rgb(18, 19, 20);
+  font-family: "arial-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%
+}
+.not-only-button {
+  width: 207px;
+  height: 52px;
+  font-style: normal;
+  background: #f1cdb3;
+  border-radius: 100px;
+}
+.not-only-button:hover{
+    background-color:#FDDCC4;
+}
+
+.not-only-img {
+  position: absolute;
+  width: 698px;
+  height: 728px;
+  left: calc(50% - 698px / 2 + 251px);
+  bottom: 0px;
+}
+/* not only style end */
+
+/* about-the-shelter start */
+/* .about-the-shelter {
+    
+  
+    max-height: 588px;
+} */
+.about-wrapper {
+    max-width: 1280px;
+  
+    margin: 0 auto;
+    position: relative;
+}
+.about-the-shelter-container {
+    display: flex;
+    align-items: center;
+    padding: 40px 90px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.about-img {
+position: absolute;
+width: 300px;
+height: 408px;
+left: 175px;
+top: 0;
+
+}
+.about-info {
+    position: absolute;
+    width: 430px;
+    height: 380px;
+    left: 629px;
+    
+}
+.about-title{ 
+font-family: "georgia-regular";
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+letter-spacing: 0.06em;
+}
+.about-subheading{
+font-family: "arial-regular";
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+letter-spacing: 0.06em;
+}
+/* about-the-shelter end */
+
+/* our pets start */
+/* .our-pets{
+    /* position: absolute; */
+    width: 1280px;
+    /* height: 877px; */
+    background: #F6F6F6;
+    /* padding-box: 90px 40px; */
+
+}
+.pets-wrapper{
+     max-width: 1280px;
+     margin: 0 auto;
+     position: relative;
+    }
+}
+.pets-content{
+    position: absolute;
+    /* width: 1200px;
+    height: 697px; */
+    background-color: #F6F6F6;
+}
+.our-pets-title {
+position: absolute;
+left: 30%;
+right: 30%;
+padding: 90px 40px 50px 40px;
+text-align: center;
+font-family: "georgia-regular";
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+
+}
+.pets-title {
+
+
+width: 400px;
+height: 90px;
+}
+.pets-slider {
+position: absolute;
+width: 1200px;
+/* height: 435px; */
+display: grid;
+grid-template-columns:repeat(3 1fr);
+grid-column-gap: 10px;
+}
+.pets-card {
+    grid-column: span 1;
+    /* width: 270px;
+    height: 435px; */
+    background-color: #FAFAFA;
+    border-radius: 9px;
+}
+.card-img{
+    width: ;
+    height: ;
+}
+.card-title {
+    font-family: "georgia-regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+}
+.card-button {
+width: 97px;
+height: 22px;
+background: #FAFAFA;;
+border: 2px solid #F1CDB3;
+border-radius: 100px;
+
+}
+.card-button:hover{
+    background-color: #F1CDB3;
+}
+/* our pets  end */
+/* help the shelter start */
+/* help the shelter end */
+/* footer start */
+footer end */
