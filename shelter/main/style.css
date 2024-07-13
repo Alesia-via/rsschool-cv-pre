@@ -1,41 +1,41 @@
 @font-face {
   font-family: "arial-regular";
-  src: url(../../assets/fonts/arial-regular.ttf);
+  src: url(../fonts/arial-regular.ttf);
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "arial-bold";
-  src: url(../../assets/fonts/arial-bold.ttf);
+  src: url(../fonts/arial-bold.ttf);
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "arial-black";
-  src: url(../../assets/fonts/arial-black.ttf);
+  src: url(../fonts/arial-black.ttf);
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 font-face {
   font-family: "arial-narrow";
-  src: url(/shelter/fonts/arial-narrow.ttf);
+  src: url(../fonts/arial-narrow.ttf);
   font-weight: lighter;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
     font-family: "georgia-regular";
-    src: url(../../assets/fonts/georgia-regular.ttf);
+    src: url(../fonts/georgia-regular.ttf);
     font-weight: 400;
     font-style: normal;
     font-display: swap;}
 
     @font-face {
         font-family: "georgia-bold";
-        src: url(../../assets/fonts/georgia-bold.ttf);
+        src: url(../fonts/georgia-bold.ttf);
         font-weight: 700;
         font-style: normal;
         font-display: swap;}
@@ -76,12 +76,13 @@ body {
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-between;
+ 
 }
 .header-list {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin-right: 40px;
+ 
 }
 .header-link {
   padding: 5px;
@@ -99,16 +100,17 @@ body {
   font-size: 15px;
 }
 .logo {
-  padding: 5px;
+ 
   text-decoration: none;
   color: bisque;
   padding: 40px;
+  
 }
 .header-logo {
- padding-left: 40px;
+ /* padding-left: 40px; */
 }
 .logo1 {
-  font-family: "georgia-regular"';
+  font-family: "georgia-regular";
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -127,39 +129,45 @@ body {
 /* not only style start */
 
 .not-only {
-  height: 908px;
-
-  background: url(../../assets/img/start-screen-gradient-background.png);
+  min-height: 100vh;
+  background: url(../img/start-screen-gradient-background.png);
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 180px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .not-only-container {
-   
+  width: 1200px;
+  height: 728px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 40px 90px;
+  /* align-items: center; */
+  justify-content: flex-start;
   gap: 10px;
+  position: relative;
 
 }
 .not-only-part {
-    max-width: 472px;
-    max-height: 322px;
-    position: absolute;
-    left: 128px;
-    bottom: 208px;
+    width: 472px;
+    height: 322px;
+    /* position: absolute; */
+    /* left: 128px;
+    bottom: 208px; */
+
+p
 }
 .not-only-title {
-  max-width: 314px;
-  color: rgb(57, 69, 80);
+  width: 314px;
+  color: #FFFFFF;
   font-family:"georgia-regular" ;
   font-size: 44px;
-line-height: 130%
+  line-height: 130%
 }
 .not-only-subtitle {
   max-width: 460px;
-  color: rgb(18, 19, 20);
+  color: #FFFFFF;
   font-family: "arial-regular";
   font-style: normal;
   font-weight: 400;
@@ -187,24 +195,21 @@ line-height: 130%
 /* not only style end */
 
 /* about-the-shelter start */
-/* .about-the-shelter {
-    
-  
-    max-height: 588px;
-} */
+.about-the-shelter {
+  min-height: 100hv;
+  padding: 40px 90px;
+  background-color: #FFFFFF;
+}
 .about-wrapper {
     max-width: 1280px;
-  
     margin: 0 auto;
-    position: relative;
+   
 }
 .about-the-shelter-container {
     display: flex;
     align-items: center;
-    padding: 40px 90px;
-    position: absolute;
-    left: 0;
-    top: 0;
+    justify-content:space-around;
+    position: relative;
 
 }
 .about-img {
@@ -216,21 +221,25 @@ top: 0;
 
 }
 .about-info {
-    position: absolute;
-    width: 430px;
-    height: 380px;
-    left: 629px;
+  position: absolute;
+  width: 430px;
+  height:380px;
+  left: 629px;
     
 }
 .about-title{ 
+width: 370px;
+height: 90px;
 font-family: "georgia-regular";
 font-style: normal;
 font-weight: 400;
 font-size: 35px;
 line-height: 130%;
 letter-spacing: 0.06em;
+
 }
-.about-subheading{
+.about-subheading {
+width: 430px;
 font-family: "arial-regular";
 font-style: normal;
 font-weight: 400;
@@ -241,64 +250,66 @@ letter-spacing: 0.06em;
 /* about-the-shelter end */
 
 /* our pets start */
-/* .our-pets{
-    /* position: absolute; */
-    width: 1280px;
-    /* height: 877px; */
-    background: #F6F6F6;
-    /* padding-box: 90px 40px; */
+.our-pets {
+min-height: 100hv;
+padding: 40px 90px;
 
+background: #F6F6F6;
 }
-.pets-wrapper{
-     max-width: 1280px;
-     margin: 0 auto;
-     position: relative;
-    }
-}
+.pets-wrapper {
+max-width: 1280px;
+margin: 0 auto;
+position: relative;
+background: #F6F6F6;
+ }
+
 .pets-content{
-    position: absolute;
-    /* width: 1200px;
-    height: 697px; */
-    background-color: #F6F6F6;
+  /* position: absolute; */
+  width: 1200px;
+  height: 697px;
+  left: calc(50% - 1200px/2);
+  /* top: 80px; */
+  background: #F6F6F6;
 }
 .our-pets-title {
+width: 400px;
+height: 90px;
+
 position: absolute;
 left: 30%;
-right: 30%;
-padding: 90px 40px 50px 40px;
+right: 30%; 
+top: 0;
 text-align: center;
 font-family: "georgia-regular";
 font-style: normal;
 font-weight: 400;
 font-size: 35px;
 line-height: 130%;
-
 }
-.pets-title {
 
-
-width: 400px;
-height: 90px;
-}
 .pets-slider {
+/* position: absolute; */
+/* width: 100%; */
+display: flex;
+justify-content:space-around;
+align-items: center;
 position: absolute;
 width: 1200px;
-/* height: 435px; */
-display: grid;
-grid-template-columns:repeat(3 1fr);
-grid-column-gap: 10px;
+height: 435px;
+left: 0px;
+top: 150px;
 }
+
 .pets-card {
-    grid-column: span 1;
-    /* width: 270px;
-    height: 435px; */
-    background-color: #FAFAFA;
-    border-radius: 9px;
-}
-.card-img{
-    width: ;
-    height: ;
-}
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 270px;
+height: 435px;
+background-color: #FFFFFF;
+border-radius: 9px;
+} 
+
 .card-title {
     font-family: "georgia-regular";
     font-style: normal;
@@ -306,6 +317,7 @@ grid-column-gap: 10px;
     font-size: 17px;
     line-height: 23px;
     letter-spacing: 0.06em;
+   
 }
 .card-button {
 width: 97px;
@@ -317,6 +329,38 @@ border-radius: 100px;
 }
 .card-button:hover{
     background-color: #F1CDB3;
+} 
+.arrow-back .arrow-ahead {
+/* position: absolute; */
+width: 52px;
+height: 52px;
+left: 0px;
+top: 192px;
+border: 2px solid #F1CDB3;
+border-radius: 100px;
+
+}
+.arrow-back .arrow-ahead:hover{
+  background-color: #F1CDB3;
+} 
+.arrow-ahead {
+  transform: rotate(180deg)
+}
+.get-to-button {
+position: absolute;
+width: 261px;
+height: 52px;
+left: 470px;
+top: 645px;
+background: #F1CDB3;
+border-radius: 100px;
+border-color: #F1CDB3;
+
+}
+.get-to-button:hover {
+  background-color:#FDDCC4;
+} 
+
 }
 /* our pets  end */
 /* help the shelter start */
