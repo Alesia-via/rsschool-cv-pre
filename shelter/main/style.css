@@ -1,20 +1,20 @@
 @font-face {
   font-family: "arial-regular";
-  src: url(/shelter/fonts/arial-regular.ttf);
+  src: url(../../assets/fonts/arial-regular.ttf);
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "arial-bold";
-  src: url(/shelter/fonts/arial-bold.ttf);
+  src: url(../../assets/fonts/arial-bold.ttf);
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "arial-black";
-  src: url(/shelter/fonts/arial-black.ttf);
+  src: url(../../assets/fonts/arial-black.ttf);
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -28,14 +28,14 @@ font-face {
 }
 @font-face {
     font-family: "georgia-regular";
-    src: url(/shelter/assets/fonts/georgia-regular.ttf);
+    src: url(../../assets/fonts/georgia-regular.ttf);
     font-weight: 400;
     font-style: normal;
     font-display: swap;}
 
     @font-face {
         font-family: "georgia-bold";
-        src: url(/shelter/assets/fonts/georgia-regular.ttf);
+        src: url(../../assets/fonts/georgia-bold.ttf);
         font-weight: 700;
         font-style: normal;
         font-display: swap;}
@@ -60,7 +60,7 @@ body {
 .wrapper {
   max-width: 1280px;
   margin: 0 auto;
-  background: url(/rsschool/rsschool-cv/shelter/assets/img/start-screen-gradient-background.png) ;
+  background: url() ;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -129,7 +129,7 @@ body {
 .not-only {
   height: 908px;
 
-  background: url(/shelter/assets/img/start-screen-gradient-background.png);
+  background: url(../../assets/img/start-screen-gradient-background.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
