@@ -285,6 +285,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 35px;
 line-height: 130%;
+color: #545454;
 }
 
 .pets-slider {
@@ -311,33 +312,46 @@ border-radius: 9px;
 } 
 
 .card-title {
-    font-family: "georgia-regular";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 23px;
-    letter-spacing: 0.06em;
-   
+  font-family: "georgia-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
 }
 .card-button {
 width: 97px;
 height: 22px;
-background: #FAFAFA;;
+background: #FAFAFA;
 border: 2px solid #F1CDB3;
 border-radius: 100px;
+color: #545454;
 
 }
 .card-button:hover{
     background-color: #F1CDB3;
 } 
-.arrow-back .arrow-ahead {
+/* .circle{
+ width: 52px;
+height: 52px;
+left: 0px;
+top: 192px;
+border: 2px solid #F1CDB3;
+border-radius: 50%;
+background-color:#FAFAFA;  */
+/* position: relative; */
+}
+.arrow-back 
+.arrow-ahead {
 /* position: absolute; */
 width: 52px;
 height: 52px;
 left: 0px;
 top: 192px;
 border: 2px solid #F1CDB3;
-border-radius: 100px;
+border-radius: 50%;
+/* background: url(../icons/Arrow\ ahead.svg) no-repeat center; */
 
 }
 .arrow-back .arrow-ahead:hover{
@@ -363,7 +377,304 @@ border-color: #F1CDB3;
 
 }
 /* our pets  end */
+.
 /* help the shelter start */
+.help-the-shelter{
+min-height: 100hv;
+/* padding: 90px 40px; */
+background: #F6F6F6
+
+}
+help-wrapper {
+max-width: 1280px;
+margin: 0 auto;
+background: #FFFFFF
+}
+.help-container {
+  display: flex;
+  position: relative;
+  height: 431px;
+  margin: 90px 40px;
+}
+
+.help-title {
+width: 308px;
+height: 90px;
+position: absolute;
+left: 446px;
+font-family: "georgia-regular";
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+text-align: center;
+letter-spacing: 0.06em;
+color: #545454;
+/* margin-bottom: 60px; */
+}
+.list{
+width: 1026px;
+height: 281px;
+position: absolute;
+left: 87px;
+top: 150px;
+display: flex;
+gap: 55px 120px;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.icon{
+  width: 60px;
+  height: 60px;
+}
+.icon-title{
+font-family: "georgia-regular";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #545454;
+text-align: center;
+letter-spacing: 0.06em;
+}
 /* help the shelter end */
+
+/* donation start */
+.donation{
+min-height: 100hv;
+padding: 90px 183px;
+background: #F6F6F6;
+}
+.donation-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+
+}
+.donation-container{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ position: relative;
+ width: 915px;
+ height: 282px;
+ left: calc(50% - 915px/2 + 0.5px);
+
+}
+.donation-dog{
+position: absolute;
+width: 505px;
+height: 261px;
+left: 0px;
+top: 11px;}
+
+.donation-title {
+width: 300px;
+height: 90px;
+font-family: "georgia-regular";
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+letter-spacing: 0.06em;
+color: #545454;
+}
+.donation-subheading{
+width: 307px;
+height: 17px;
+font-family: "georgia-regular";
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 110%;
+letter-spacing: 0.06em;
+color: #545454;
+
+}
+.credit-card{
+/* position: absolute; */
+width: 349px;
+height: 43px;
+padding: 10px 15px;
+left: 0px;
+top: 147px;
+background: #F1CDB3;
+border-radius: 9px;
+color: #545454;
+font-family: "georgia-regular";
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+letter-spacing: 0.06em;
+}
+.legal{
+
+width: 380px;
+height: 72px;
+color: #B2B2B2;
+font-family: "arial-regular";
+font-style: italic;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+}
+
+
+/* donation end*/
+
 /* footer start */
-footer end */
+.footer {
+min-height: 100hv;
+
+
+}
+.footer-wrapper {
+max-width: 1280px;
+margin: 0 auto;
+padding-top: 90px;
+padding-left: 40px;
+background: url(../img/footer-gradient-background.png) no-repeat;
+background-size: cover;
+}
+.footer-container {
+  position: relative;
+  width: 1200px;
+  height: 310px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.for-question {
+/* position: absolute; */
+width: 278px;
+height: 234px;
+display: flex;
+flex-direction: column;
+/* margin-top: 60px; */
+margin-bottom: 60px;
+justify-content: flex-start;
+}
+.footer-list{
+  list-style: none;
+  margin-bottom: 10px;
+}
+.email
+.phone {
+  list-style: none;
+}
+.email::before {
+  content:url(../icons/icon-email.svg);
+  width: 40px;
+  height: 32px;
+ 
+}
+.phone::before{
+  content: url(../icons/icon-phone.svg);
+ 
+}
+
+.footer-anchor{
+text-decoration: none;
+font-family: georgia-regular;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+letter-spacing: 0.06em;
+color: #F1CDB3;
+}
+.contact-title{
+/* position: absolute; */
+width: 278px;
+height: 90px;
+left: calc(50% - 278px/2 - 0px);
+top: 0px;
+font-family:"georgia-regular";
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 130%;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+
+.address-text::before{
+  content: url(../icons/icon-marker.svg);
+
+}
+.address-text{
+list-style: none;
+font-family: georgia-regular;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+letter-spacing: 0.06em;
+color: #F1CDB3;
+width: 260px;
+height: 46px;
+/* left: calc(50% - 260px/2 + 21px);
+top: 124px;
+position:absolute; */
+}
+.boston{
+position: absolute;
+width: 260px;
+height: 46px;
+left: calc(50% - 260px/2 + 21px);
+top: 124px;
+}
+.london{
+position: absolute;
+width: 302px;
+height: 32px;
+left: calc(50% - 260px/2 + 21px);
+top: 202px;
+
+}
+.footer-img{
+position: absolute;
+width: 300px;
+height: 310px;
+left: calc(50% - 300px/2 + 450px);
+top: 0px;
+}
+.email
+.phone{
+/* position: absolute; */
+width: 251px;
+height: 32px;
+left: 0px;
+top: 130px;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+  /* justify-content: flex-start; */
+  /* position: absolute; */
+  width: 302px;
+  height: 234px;
+  left: 438px;
+  top: 16px;
+}
+.address-title {
+
+position: absolute;
+width: 302px;
+height: 234px;
+left: 438px;
+top: 16px;
+font-family:"georgia-regular";
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 130%;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+
+}
+
+/*footer end */
