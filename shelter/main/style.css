@@ -60,9 +60,7 @@ body {
 .wrapper {
   max-width: 1280px;
   margin: 0 auto;
-  background: url() ;
-  background-size: cover;
-  background-repeat: no-repeat;
+  
 }
 .header {
   position: fixed;
@@ -106,9 +104,9 @@ body {
   padding: 40px;
   
 }
-.header-logo {
- /* padding-left: 40px; */
-}
+/* .header-logo {
+ padding-left: 40px;
+} */
 .logo1 {
   font-family: "georgia-regular";
   font-style: normal;
@@ -129,13 +127,17 @@ body {
 /* not only style start */
 
 .not-only {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background: url(../img/start-screen-gradient-background.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 180px;
   padding-left: 40px;
   padding-right: 40px;
+}
+.only-wrapper{
+max-width: 1280px;
+margin: 0 auto;
 }
 
 .not-only-container {
@@ -260,7 +262,7 @@ background: #F6F6F6;
 max-width: 1280px;
 margin: 0 auto;
 position: relative;
-background: #F6F6F6;
+/* background: #F6F6F6; */
  }
 
 .pets-content{
@@ -375,20 +377,22 @@ border-color: #F1CDB3;
   background-color:#FDDCC4;
 } 
 
-}
+
 /* our pets  end */
 .
 /* help the shelter start */
+
 .help-the-shelter{
 min-height: 100hv;
 /* padding: 90px 40px; */
-background: #F6F6F6
+background: #F6F6F6:
 
 }
-help-wrapper {
+
+.help-wrapper {
 max-width: 1280px;
 margin: 0 auto;
-background: #FFFFFF
+background: #FFFFFF;
 }
 .help-container {
   display: flex;
@@ -526,7 +530,8 @@ line-height: 18px;
 /* footer start */
 .footer {
 min-height: 100hv;
-
+background: url(../img/footer-gradient-background.png) no-repeat;
+background-size: cover;
 
 }
 .footer-wrapper {
@@ -534,8 +539,7 @@ max-width: 1280px;
 margin: 0 auto;
 padding-top: 90px;
 padding-left: 40px;
-background: url(../img/footer-gradient-background.png) no-repeat;
-background-size: cover;
+
 }
 .footer-container {
   position: relative;
