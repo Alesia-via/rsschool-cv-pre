@@ -215,8 +215,6 @@ margin: 0 auto;
     /* position: absolute; */
     /* left: 128px;
     bottom: 208px; */
-
-p
 }
 .not-only-title {
   width: 314px;
@@ -448,15 +446,24 @@ background-color:#FAFAFA;
   background-position: center;
 }
 .get-to-button {
+display: inline-block;
+border: solid 1px #F1CDB3;
+text-align: center;
+color: #292929;
+text-decoration: none;
 position: absolute;
 width: 261px;
 height: 52px;
 left: 470px;
 top: 645px;
+font-family: "georgia-regular";
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 130%;  
 background: #F1CDB3;
 border-radius: 100px;
-border-color: #F1CDB3;
-
+padding-top: 12px;
 }
 .get-to-button:hover, 
 .get-to-button:focus,
@@ -619,7 +626,6 @@ background: #FDDCC4;
   background: #FDDCC4;
   }
 .legal{
-
 width: 380px;
 height: 72px;
 color: #B2B2B2;
